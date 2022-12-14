@@ -62,7 +62,7 @@ export default function Product() {
                   <div className="productUpload">
                       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvillman.com%2Fproduct_photos%2Fvictus-16_qg25c.gif&f=1&nofb=1&ipt=36d6cfdf3662039be918d44368bd1ed5ec90c3e107289935ce6c200a54b2457b&ipo=images" alt="" className="productUploadImg" />
                       <label for="file">
-                          <Publish/>
+                          <Publish className="userUpdateIcon"/>
                       </label>
                       <input type="file" id="file" style={{display:"none"}} />
                   </div>
